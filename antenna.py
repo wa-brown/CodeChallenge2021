@@ -4,6 +4,6 @@ class Antenna():
         self.range = range
         self.connection_speed = connection_speed
 
-    def set_coords(self, w, h):
-        self.width = w
-        self.height = h
+    def set_coords(self, x, y):
+        self.x = x
+        self.y = y
