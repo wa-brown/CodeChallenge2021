@@ -3,3 +3,7 @@ class Antenna():
         self.id = id
         self.range = range
         self.connection_speed = connection_speed
+
+    def set_coords(self, w, h):
+        self.width = w
+        self.height = h
