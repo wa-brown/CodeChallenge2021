@@ -1,5 +1,4 @@
-10 10
-1 1 200000000
-5 5 0 100
-3 10000
-
+10 10 // W - H
+1 1 200000000 // building no - antenna no - reward
+5 5 0 100  // x - y - latency weight - connection sp.
+3 10000 // antenna range - connection speed
