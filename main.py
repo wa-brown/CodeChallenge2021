@@ -22,5 +22,9 @@ def main():
             antennas.append(antenna.Antenna(id, r, c))
             id += 1
 
+    # process
+
+    # output
+
 if __name__ == "__main__":
     main()
