@@ -7,7 +7,7 @@ def main():
     antennas = []
 
     # load the file
-    with open('data_scenarios_a_example.in', 'r') as reader:
+    with open('scenarios/data_scenarios_simplest_example.in', 'r') as reader:
         lines = reader.readlines()
         w, h = lines[0].strip().split(" ")
         g = grid.Grid(w, h)
