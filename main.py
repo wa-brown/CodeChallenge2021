@@ -31,16 +31,11 @@ def main():
     with open(outfile, 'w') as writer:
         writer.write(f'{len(antennas)}\n')
         for an in antennas:
-<<<<<<< Updated upstream
-            writer.write(f'{an.id} {an.x} {an.y}\n')
-
-=======
             try:
                 writer.write(f'{an.id} {an.x} {an.y}\n')
             except:
                 print('oops')
     
->>>>>>> Stashed changes
 
 def process(h, w, buildings, antennas):
     count = 0
