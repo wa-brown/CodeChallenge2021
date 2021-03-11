@@ -24,10 +24,9 @@ def main():
     # process
     print(grid)
     for an in antennas:
+        print("hello")
 
         
-
-    # output
 
 def process(antennas):
     return antennas
